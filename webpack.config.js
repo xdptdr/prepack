@@ -3,7 +3,8 @@ const webpack = require('webpack');
  module.exports = {
      entry: './index.js',
      output: {
-         filename: 'prepack.js'
+         filename: 'prepack.js',
+         libraryTarget: 'amd'
      },
      module: {
          loaders: [{
